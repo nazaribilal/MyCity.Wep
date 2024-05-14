@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 15px;
+}
+body
+{
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.6rem;
+    background-color: #a51818 !important;
+    background-image: url(resimler/ortakoy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header img
+{ 
+    float: left;
+    width: 12.5%;
+    height: 8rem; 
+}
+img.baslik
+{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.clear
+{ 
+    clear: both;
+}
+header
+{
+    width: 100%;
+    font-size: 1.6rem;
+    text-align: center;
+    background-color: #000000;
+}
+ a.baslik
+ {
+    padding: 2rem;
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+    transition: all .4s;
+ }
+ a.baslik:hover
+ {
+    color: #18bc9c;
+ }
+h2
+{
+    text-align: center;
+}
+.film
+{
+    font-size: larger;
+    margin: 10rem 30rem 10rem;
+    background-color: rgb(44, 62, 80, 0.75);
+    padding: 4rem;
+    border-radius: 1rem;
+    color: bisque;
+}
+.resim
+{
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    height: auto;
+}
+.image
+{
+    padding: 1rem;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.content {
+    background-color: rgb(234, 234, 234, 0.75);
+    margin: 10rem 20rem 10rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.resim {
+    width: 80%; 
+    height: auto;
+    margin-top: 10px; 
+}
+
+footer {
+    padding: 0.25rem;
+    background-color: #090b0d;
+    text-align: center;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
