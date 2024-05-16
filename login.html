@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
-    <title>Hakkında</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -30,22 +30,31 @@
             <a class="baslik" href="Özgeçmişim.html">ÖZGEÇMİŞİM</a>
             <a class="baslik" href="İlgiAlanlarım.html">İLGİ ALANLARIM</a>
             <a class="baslik" href="KişiselBilgilerim.html">KİŞİSEL BİLGİLERİM</a>
-            <a class="baslik" href="login.html">Giriş</a>
+            <a class="baslik" href="login.html"> Giriş </a>
+        </div>
     </header>
 
-    <div class="film" id="output">
-
+    <div id="login-section">
+        <form id="login-form" onsubmit="handleLogin(event)">
+            <div>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div>
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">Giriş</button>
+        </form>
     </div>
-    <script src="film.js"></script>
-</section>
-<footer>
-    <div>
+    <div id="login-message" style="display: none;"> </div>
+    <div id="login-message" style="display: none;"></div>
+    <footer>
         <h3>Web Teknolojileri Dersi Proje Ödevi</h3>
-    </div>
-    <div>
-        BILAL NAZARİ
-    </div>
-</footer>
+        <div>BILAL NAZARİ</div>
+    </footer>
+
+    <script src="login.js"></script>
 </body>
 
 </html>

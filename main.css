@@ -13,7 +13,7 @@ body
     font-family: 'KoHo', sans-serif;
     font-size: 1.6rem;
     background-color: #a51818 !important;
-    background-image: url(resimler/ortakoy.jpg);
+    background-image: url(resimler/İstanbul.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -103,4 +103,54 @@ footer {
     bottom: 0;
     right: 0;
     left: 0;
+}
+/* login formu stili */
+#login-section {
+    background-color: rgba(234, 234, 234, 0.75); /* Beyaz arka plan, yarı saydam */
+    margin: 10rem 20rem 10rem;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+#login-form div {
+    margin-bottom: 1.5rem; /* Giriş alanları arasında boşluk */
+}
+
+#login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333; /* Yazı rengi */
+}
+
+#login-form input {
+    width: 60%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+
+#login-form button {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background-color: #18bc9c;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-form button:hover {
+    background-color: #138f75;
+}
+
+#login-message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
 }
