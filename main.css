@@ -124,7 +124,7 @@ footer {
 }
 
 #login-form input {
-    width: 60%;
+    width: 100%;
     padding: 0.8rem;
     border: 1px solid #ccc;
     border-radius: 0.4rem;
@@ -133,7 +133,7 @@ footer {
 
 #login-form button {
     display: block;
-    width: 100%;
+    width: 50%;
     padding: 1rem;
     background-color: #18bc9c;
     color: white;
@@ -143,6 +143,7 @@ footer {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 
 #login-form button:hover {
     background-color: #138f75;
