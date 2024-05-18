@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
-    <title>Hakkında</title>
+    <title>Hoşgeldiniz</title>
 </head>
-
 <body>
     <header>
         <div>
@@ -32,21 +28,31 @@
             <a class="baslik" href="KişiselBilgilerim.html">KİŞİSEL BİLGİLERİM</a>
             <a class="baslik" href="login.html">GİRİŞ</a>
             <a class="baslik" href="iletişi.html">İLETİŞİM</a>
+        </div>
+        <script>
+            setTimeout(function() {
+                window.location.href = "login.html";
+            }, 5000); // 5 saniye sonra yönlendirme
+        </script>
+        <style>
+            .error-message {
+                color: red;
+            }
+        </style>
     </header>
 
-    <div class="film" id="output">
-
+    <div class="content">
+        <body>
+            <p class="error-message">E-mail veya şifre hatalı. Lütfen tekrar deneyin.</p>
+        </body>
     </div>
-    <script src="film.js"></script>
-</section>
-<footer>
-    <div>
-        <h3>Web Teknolojileri Dersi Proje Ödevi</h3>
-    </div>
-    <div>
-        BILAL NAZARİ
-    </div>
-</footer>
+    <footer>
+        <div>
+            <h3>Web Teknolojileri Dersi Proje Ödevi</h3>
+        </div>
+        <div>
+            BILAL NAZARİ
+        </div>
+    </footer>
 </body>
-
 </html>

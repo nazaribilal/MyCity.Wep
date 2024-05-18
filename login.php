@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         header("Location: Hoşgeldiniz.html");
         exit;
     } else {
-        echo "Geçersiz E-mail veya Şifre";
+       header("location: GirişBaşarısız.html");
     }
 }
 ?>

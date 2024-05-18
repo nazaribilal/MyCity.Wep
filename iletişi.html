@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+    <title>İletişim</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div> <img src="resimler/galatakulesi.jpg" alt=""></div>
+            <div><img src="resimler/dolmabahce.jpg" alt=""></div>
+            <div> <img src="resimler/bogazkoprusu.jpg" alt=""></div>
+            <div> <img src="resimler/kapalicarsi.jpg" alt=""></div>
+            <div><img src="resimler/kızkulesi.jpg" alt=""></div>
+            <div><img src="resimler/ayasofya.jpg" alt=""></div>
+            <div> <img src="resimler/sultanahmet.jpg" alt=""></div>
+            <div><img src="resimler/topkapısarayı.jpg" alt=""></div>
+        </div>
+        <div class="clear"></div>
+        <div style="padding: 1rem;">
+            <a class="baslik" href="index.html">HAKKIMDA</a>
+            <a class="baslik" href="Şehrimiz.html">ŞEHRİM</a>
+            <a class="baslik" href="Özgeçmişim.html">ÖZGEÇMİŞİM</a>
+            <a class="baslik" href="İlgiAlanlarım.html">İLGİ ALANLARIM</a>
+            <a class="baslik" href="KişiselBilgilerim.html">KİŞİSEL BİLGİLERİM</a>
+            <a class="baslik" href="login.html">GİRİŞ</a>
+            <a class="baslik" href="iletişi.html">İLETİŞİM</a>
+        </div>
+    </header>
+
+    <section>
+        <div class="content">
+            <h2>İletişim Formu</h2><br>
+            <form id="contactForm" onsubmit="return validateForm()">
+                <div class="form-group">
+                    <label for="name">Ad Soyad:</label><br>
+                    <input type="text" id="name" name="name"><br><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-posta:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="sehir" style="color: rgb(0, 0, 0);"> ŞEHİR SEÇİMİ</label>
+                    <select name="sehir" id="sehir" class="form-control">
+                        <option value="0">&#706;SEÇİNİZ&#707</option>
+                        <option value="Adana">Adana</option>
+                        <option value="Ankara">Ankara</option>
+                        <option value="İstanbul">İstanbul</option>
+                        <option value="Sakarya">Sakarya</option>
+                        <option value="Diyarbakır">Diyarbakır</option>
+                    </select>
+                </div>
+<br>
+                <div class="form-group">
+                    <label for="hobbies">Hobiler:</label><br>
+                    <input type="checkbox" id="hobby1" name="hobbies" value="Spor">
+                    <label for="hobby1">Spor</label>
+                    <input type="checkbox" id="hobby2" name="hobbies" value="Müzik">
+                    <label for="hobby2">Müzik</label>
+                    <input type="checkbox" id="hobby3" name="hobbies" value="Seyahat">
+                    <label for="hobby3">Seyahat</label>
+                    <input type="checkbox" id="hobby4" name="hobbies" value="Kitap Okuma">
+                    <label for="hobby4">Kitap Okuma</label><br><br>
+                </div>
+
+                <div class="form-group">
+                    <label for="gender">Cinsiyet:</label><br>
+                    <input type="radio" id="male" name="gender" value="Erkek">
+                    <label for="male">Erkek</label>
+                    <input type="radio" id="female" name="gender" value="Kadın">
+                    <label for="female">Kadın</label><br><br>
+                </div>
+
+                <input type="submit" value="Gönder">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Web Teknolojileri Dersi Proje Ödevi</h3>
+        <div>BILAL NAZARİ</div>
+    </footer>
+
+    <script src="validate.js"></script>
+</body>
+</html>
